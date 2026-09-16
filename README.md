@@ -113,9 +113,6 @@ mvn test
 ```
 Tests cover email/phone validation, login input validation, event capacity logic and complaint validation.
 
-## Screenshots
-Add screenshots of Login, Student Dashboard, Complaints, Lost & Found, Events and Admin Dashboard here after running the project.
-
 ## Future Enhancements
 - Email/push notifications.
 - Profile photo uploads.
