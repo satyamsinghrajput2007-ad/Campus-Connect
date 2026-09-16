@@ -1,0 +1,4 @@
+package com.campusconnect.model;
+import java.time.LocalDateTime;
+public class Claim { private int id,itemId,studentId; private String itemTitle,studentName,status; private LocalDateTime createdAt;
+ public int getId(){return id;} public void setId(int v){id=v;} public int getItemId(){return itemId;} public void setItemId(int v){itemId=v;} public int getStudentId(){return studentId;} public void setStudentId(int v){studentId=v;} public String getItemTitle(){return itemTitle;} public void setItemTitle(String v){itemTitle=v;} public String getStudentName(){return studentName;} public void setStudentName(String v){studentName=v;} public String getStatus(){return status;} public void setStatus(String v){status=v;} public LocalDateTime getCreatedAt(){return createdAt;} public void setCreatedAt(LocalDateTime v){createdAt=v;}}

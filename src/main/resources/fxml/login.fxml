@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?><?import javafx.scene.control.*?><?import javafx.scene.layout.*?>
+<BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.campusconnect.controller.LoginController" styleClass="login-root">
+ <center><VBox maxWidth="430" spacing="18" alignment="CENTER" styleClass="login-card"><Label text="CAMPUSCONNECT" styleClass="brand"/><Label text="Integrated Campus Management Platform" styleClass="subtitle"/><TextField fx:id="emailField" promptText="Email address"/><PasswordField fx:id="passwordField" promptText="Password"/><Button text="Sign In" onAction="#login" maxWidth="1.7976931348623157E308" styleClass="primary-button"/><Label fx:id="messageLabel" styleClass="error-label" wrapText="true"/><Separator/><Label text="Demo: admin@campusconnect.com / admin123" styleClass="hint"/><Label text="Demo: student@campusconnect.com / student123" styleClass="hint"/></VBox></center>
+</BorderPane>

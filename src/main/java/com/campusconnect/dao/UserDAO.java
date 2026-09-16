@@ -1,0 +1,3 @@
+package com.campusconnect.dao;
+import com.campusconnect.exception.DatabaseException; import com.campusconnect.model.User; import com.campusconnect.util.DatabaseConnection; import java.sql.*;
+public class UserDAO { public User findByEmail(String email){String sql="SELECT id,email,password_hash,role FROM users WHERE email=?";try(Connection c=DatabaseConnection.getConnection();PreparedStatement p=c.prepareStatement(sql)){p.setString(1,email);try(ResultSet r=p.executeQuery()){if(r.next())return new User(r.getInt(1),r.getString(2),r.getString(3),r.getString(4));return null;}}catch(SQLException e){throw new DatabaseException("Could not read user.",e);}} }

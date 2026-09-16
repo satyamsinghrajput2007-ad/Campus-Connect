@@ -1,0 +1,3 @@
+package com.campusconnect;
+import javafx.application.Application; import javafx.fxml.FXMLLoader; import javafx.scene.Scene; import javafx.stage.Stage;
+public class Main extends Application { public static void main(String[] args){launch(args);} @Override public void start(Stage stage)throws Exception{Scene scene=new Scene(FXMLLoader.load(getClass().getResource("/fxml/login.fxml")),1100,700); scene.getStylesheets().add(getClass().getResource("/css/style.css").toExternalForm()); stage.setTitle("CampusConnect");stage.setMinWidth(1000);stage.setMinHeight(650);stage.setScene(scene);stage.show();} }

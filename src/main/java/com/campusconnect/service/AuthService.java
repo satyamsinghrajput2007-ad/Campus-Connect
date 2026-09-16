@@ -1,0 +1,3 @@
+package com.campusconnect.service;
+import com.campusconnect.dao.UserDAO; import com.campusconnect.exception.AuthenticationException; import com.campusconnect.model.User; import com.campusconnect.util.PasswordUtil; import com.campusconnect.util.ValidationUtil;
+public class AuthService { private final UserDAO dao=new UserDAO(); public User authenticate(String email,String password){ValidationUtil.email(email);ValidationUtil.required(password,"Password");User u=dao.findByEmail(email.trim());if(u==null||!PasswordUtil.matches(password,u.getPasswordHash()))throw new AuthenticationException("Invalid email or password.");return u;} }
