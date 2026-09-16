@@ -92,7 +92,6 @@ CAMPUS_DB_URL=jdbc:mysql://localhost:3306/campusconnect?useSSL=false&serverTimez
 CAMPUS_DB_USER=root
 CAMPUS_DB_PASSWORD=your_password
 ```
-Alternatively edit the constants in `DatabaseConnection.java` for a local university demo machine. Do not commit real credentials.
 
 ## How to Run
 ```bash
