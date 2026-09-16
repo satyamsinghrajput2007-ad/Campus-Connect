@@ -1,4 +1,4 @@
-|<p>**🤝CampusConnect**</p></p><p>👤 Author: Satyam Singh</p><p>🆔 Registration Number : 25BAI10144</p><p>🏫 VIT Bhopal University</p><p>📘 Course: CSA2001 — Fundamentals of AI and ML</p>|
+|<p>**🤝Campus Connect**</p></p><p>👤 Author: Satyam Singh</p><p>🆔 Registration Number : 25BAI10144</p><p>🏫 VIT Bhopal University</p><p>📘 Course: CSE2006 — Programming In Java</p>|
 | :-: |
 
 # CampusConnect
