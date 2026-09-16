@@ -1,3 +1,6 @@
+|<p>**🤝CampusConnect**</p></p><p>👤 Author: Satyam Singh</p><p>🆔 Registration Number : 25BAI10144</p><p>🏫 VIT Bhopal University</p><p>📘 Course: CSA2001 — Fundamentals of AI and ML</p>|
+| :-: |
+
 # CampusConnect
 
 CampusConnect is a desktop-based university campus management platform built with Java 21, JavaFX 21, Maven, MySQL and JDBC. It provides role-based student/admin access for student records, hostel complaints, lost & found posts and campus events.
