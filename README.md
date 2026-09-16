@@ -122,6 +122,3 @@ Add screenshots of Login, Student Dashboard, Complaints, Lost & Found, Events an
 - QR-based event check-in.
 - Admin analytics charts.
 - Cloud deployment and university SSO.
-
-## Contributors
-University project team — update this section with your team member names and roll numbers before submission.
